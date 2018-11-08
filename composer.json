@@ -1,25 +1,33 @@
 {
-  "name": "justcoded/wordpress-theme-framework",
-  "description": "Lightweight theme framework base with Model-View concept for developers who want to better organize their own custom themes.",
-  "keywords": ["plugin","wordpress","theme framework","mvc"],
-  "type": "wordpress-muplugin",
+  "name": "justcoded/wordpress-theme-boilerplate",
+  "type": "library",
+  "license": "MIT",
+  "description": "WordPress theme boilerplate with better code structure and OOP support.",
   "authors": [
     {
       "name": "Alex Prokopenko",
       "email": "aprokopenko@justcoded.com",
-      "homepage": "http://justcoded.com",
-      "role": "Developer"
+      "homepage": "https://github.com/justcoded"
     }
   ],
+  "keywords": [
+    "justcoded",
+    "wordpress",
+    "composer",
+    "wordpress theme",
+    "theme boilerplate",
+    "wp",
+    "wp theme"
+  ],
   "support": {
-    "email": "aprokopenko@justcoded.com",
-    "issues": "https://github.com/justcoded/wordpress-theme-framework/issues"
+    "issues": "https://github.com/justcoded/wordpress-theme-boilerplate/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
   },
   "require": {
     "php": ">=7.0",
-    "johnpbloch/wordpress": ">=4.7",
-    "composer/installers": "~1.0",
-    "stoutlogic/acf-builder": "~1.8"
-  },
-  "license": "GPL-3.0+"
+
+    "justcoded/wordpress-theme-framework": "^2.1.1"
+  }
 }
