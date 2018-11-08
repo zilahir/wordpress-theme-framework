@@ -1,3 +1,6 @@
+This is a forked repo from teh original wordpress-theme-boilerplate repository, and has been reverted to a version, where the ACF PRO plugin was not mandatory to have. It's my personal preferences to use this template this way, ALL credits goes to it's original authors. 
+
+
 # WordPress Theme Boilerplate
 
 This package contains Theme Boilerplate, which has a lot of improvements and security patches, according to 
